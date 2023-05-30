@@ -1,0 +1,43 @@
+.spotlightContainer {
+  @apply w-1/2;
+
+  .issueContainer {
+    @apply bg-[#f4d06f] p-5;
+
+    .spotlightAndIssue {
+      @apply flex cursor-pointer;
+
+      div {
+        @apply px-2 py-1 border border-black;
+      }
+
+      :first-child {
+        @apply bg-black text-[#f4d06f];
+      }
+    }
+
+    .title {
+      @apply text-2xl font-semibold tracking-widest mt-4;
+    }
+
+    .description {
+      @apply flex justify-between py-3 border-b border-black border-t items-end mt-4;
+
+      h1 {
+        @apply text-sm w-9/12;
+      }
+
+      h2 {
+        @apply w-2/12 text-sm font-bold text-end cursor-pointer;
+      }
+    }
+
+    .author {
+      @apply border-b border-black py-2;
+
+      span {
+        @apply font-bold;
+      }
+    }
+  }
+}

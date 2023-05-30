@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Blog from "@/types/blog";
+import Spotlight from "@/components/spotlight/Spotlight";
+import News from "@/components/news/News";
 
 export default function Home() {
   return (
@@ -9,7 +12,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <h1>Marikuna</h1>
+        {Blog.map((item) => (
+          <div>
+            <Spotlight item={item} />
+            {item.news.map((news) => (
+              <News news={news} />
+            ))}
+          </div>
+        ))}
       </main>
     </>
   );
