@@ -1,0 +1,23 @@
+.newsContainer {
+  @apply border border-black;
+
+  .newsTitle {
+    @apply pt-4 text-xl font-semibold tracking-widest px-4;
+  }
+
+  .newsAuthorContainer {
+    @apply mt-2 text-sm border-b border-black pb-4 px-4;
+
+    .newsAuthor {
+      @apply font-semibold;
+    }
+  }
+
+  .newsMainDesc {
+    @apply text-xs leading-relaxed px-4 py-4;
+  }
+
+  .newsCategory {
+    @apply border-black border text-xs w-min px-2 py-1;
+  }
+}

@@ -31,14 +31,13 @@ const Blog: Spotlight[] = [
     news: [
       {
         id: 1,
-        category: "euismod",
+        category: "Housing",
         author: "Nellie Tommei",
-        title:
-          "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
+        title: "Why Britain doesn’t build",
         newsMainDescription:
-          "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+          "The history of attempts to reform planning in Britain is proof that political willpower is not enough: you need to be smart, not just brave.",
         description:
-          "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+          "Since the Second World War, housing in Britain has become increasingly expensive and scarce. Following a pre-war housing boom in the 1930s, during which decade more houses were built than ever before or since, between 1947 and 1955, Labour and Conservative governments enacted strict new planning rules controlling development. These rules gave local councils the power to block nearly all housebuilding, with little incentive to permit it.",
       },
       {
         id: 2,
@@ -63,7 +62,25 @@ const Blog: Spotlight[] = [
         id: 4,
         category: "molestie",
         author: "Parrnell Knowlson",
-        title: "Maecenas ut massa quis augue luctus tincidunt.",
+        title: "Maecenas ut massa",
+        newsMainDescription: "Fusce consequat. Nulla nisl. Nunc nisl.",
+        description:
+          "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      },
+      {
+        id: 5,
+        category: "molestie",
+        author: "Parrnell Knowlson",
+        title: "Maecenas ut massa quis",
+        newsMainDescription: "Fusce consequat. Nulla nisl. Nunc nisl.",
+        description:
+          "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      },
+      {
+        id: 6,
+        category: "molestie",
+        author: "Parrnell Knowlson",
+        title: "Maecenas ut massa",
         newsMainDescription: "Fusce consequat. Nulla nisl. Nunc nisl.",
         description:
           "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",

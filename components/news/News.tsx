@@ -1,10 +1,15 @@
 import React from "react";
+import styles from "./styles.module.scss";
 
 export default function News({ news }: any) {
   return (
-    <div>
-      <h1>{news.title}</h1>
-      <h1>Words By {news.author}</h1>
+    <div className={styles.newsContainer}>
+      <h1 className={styles.newsTitle}>{news.title}</h1>
+      <h1 className={styles.newsAuthorContainer}>
+        Words By <span className={styles.newsAuthor}>{news.author}</span>
+      </h1>
+      <h1 className={styles.newsMainDesc}>{news.newsMainDescription}</h1>
+      {/* <h1 className={styles.newsCategory}>{news.category}</h1> */}
     </div>
   );
 }
