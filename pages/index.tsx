@@ -2,6 +2,8 @@ import Head from "next/head";
 import Blog from "@/types/blog";
 import Spotlight from "@/components/spotlight/Spotlight";
 import News from "@/components/news/News";
+import { Logo } from "@/components/logo";
+import { Header } from "@/components";
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main style={{ padding: "40px" }}>
+        <Header />
         {Blog.map((item) => (
           <div style={{ display: "flex", gap: "20px", marginBottom: "100px" }}>
             <Spotlight item={item} />
